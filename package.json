@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^5.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^5.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "cy:open": "cypress open"
   },
