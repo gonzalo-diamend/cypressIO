@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "cypress": "^5.1.0"
+    "cypress": "^5.6.0"
   },
   "scripts": {
-    "cy:open": "cypress open"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:staging": "cypress run --env environmentName=staging",
+    "cy:qa": "cypress run --env environmentName=qa",
+    "cy:prod": "cypress run --env environmentName=prod",
+    "cy:dev": "cypress run --env environmentName=dev"
   },
   "repository": {
     "type": "git",

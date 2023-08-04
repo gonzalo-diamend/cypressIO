@@ -1,0 +1,13 @@
+{
+
+  "userDetails": [
+    {
+      "buyerEmail": "automationbuyercaramel@yopmail.com",
+      "buyerPassword": "Testuser@123"
+    },
+    {
+      "sellerEmail": "automationsellercaramel@yopmail.com",
+      "sellerPassword": "Testuser@123"
+    }
+  ]
+}
