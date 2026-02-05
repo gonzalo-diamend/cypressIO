@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
-export let fakerName = faker.name.firstName();
+export let fakerName = faker.person.firstName();
 const usrLoginInput = '#userName';
 const usrPassInput = '#password';
 const signInBtn = '[type=submit]';
